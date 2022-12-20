@@ -11,3 +11,8 @@ mechanics = Mechanic.create([
     {name: "John" , phone_number: "1234567890", exact_location:"lavington" ,  county:"Nairobi" },
     {name: "John" , phone_number: "1234567890", exact_location:"lavington" ,  county:"Thika" }
 ])
+
+fuel_stations = FuelStation.create([
+    {name: "Oilibya" , phone_number: "1234567890", exact_location:"lavington" ,  county:"Nairobi" },
+    {name: "Shell" , phone_number: "1234567890", exact_location:"lavington" ,  county:"Thika" }
+])
