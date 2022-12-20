@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+
+mechanics = Mechanic.create([
+    {name: "John" , phone_number: "1234567890", exact_location:"lavington" ,  county:"Nairobi" },
+    {name: "John" , phone_number: "1234567890", exact_location:"lavington" ,  county:"Thika" }
+])
