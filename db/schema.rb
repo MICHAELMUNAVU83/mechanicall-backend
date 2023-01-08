@@ -16,6 +16,10 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_20_081928) do
     t.string "phone_number"
     t.string "exact_location"
     t.string "county"
+    t.string "description"
+    t.string "email"
+    t.string "distance"
+    t.string "logo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -25,6 +29,10 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_20_081928) do
     t.string "phone_number"
     t.string "exact_location"
     t.string "county"
+    t.string "description"
+    t.string "email"
+    t.string "distance"
+    t.string "logo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
