@@ -6,8 +6,7 @@ class CreateFuelStations < ActiveRecord::Migration[7.0]
       t.string :exact_location
       t.string :county
       t.string :description
-      t.integer :latitude
-      t.integer :longitude
+      
       t.string :email
       t.string :distance
       t.string :logo
