@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       resources :users, only: [:create]
       resources :mechanics
       resources :fuel_stations
+      resources :essentials
   
       post '/login', to: 'auth#create'
       get '/profile', to: 'users#profile'

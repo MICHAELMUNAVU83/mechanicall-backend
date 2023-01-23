@@ -1,0 +1,2 @@
+class Essential < ApplicationRecord
+end

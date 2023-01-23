@@ -25,3 +25,11 @@ fuel_stations = FuelStation.create([
     {name: "Shell Highpoint" , phone_number: "0722471142", exact_location:"juja" ,  county:"Kiambu", description:"Gas station" , email:"shellr.com" , distance:"3km" , logo:"https://images.unsplash.com/photo-1560005262-823d9a06c851?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZnVlbCUyMHN0YXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"  },
     {name: "Northgate" , phone_number: "0722471142", exact_location:"juja" ,  county:"Kiambu", description:"Gas station" , email:"shellr.com" , distance:"5km" , logo:"https://www.google.com/maps/uv?pb=!1s0x182f463f7d90a973:0x67f0ea90ebf51ccc!3m1!7e115!4shttps://lh5.googleusercontent.com/p/AF1QipOpNyp_9ovCTblyr5dYPyNk6rBosm7oImReWsPl%3Dw260-h175-n-k-no!5spetrol+stations+in+juja+-+Google+Search!15zQ2dJZ0FRPT0&imagekey=!1e10!2sAF1QipOpNyp_9ovCTblyr5dYPyNk6rBosm7oImReWsPl&hl=en&sa=X&ved=2ahUKEwi5yeCqgs78AhUZUqQEHeDnB94Q7ZgBegQIEhAD"  , latitude: -2.58333, longitude: 37.51667 },
 ])
+
+essentails = Essential.create([
+    {latitude:-1.102554 , longitude: 37.016667  },
+    {latitude:-1.145703, longitude: 37.016667  },
+    {latitude:-1.087046 , longitude:37.012565  },
+    {latitude:-1.124369 ,longitude:37.004467  }
+
+])
