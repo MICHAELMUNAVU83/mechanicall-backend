@@ -7,6 +7,8 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 
+puts "Seeding database..."
+
 
 
 mechanics = Mechanic.create([
@@ -35,3 +37,4 @@ essentails = Essential.create([
     {latitude:-1.052369 ,longitude:37.003562 ,icon:"fa fa-gear", name:"Mechanic" }
 
 ])
+puts "Finished!"
