@@ -27,9 +27,11 @@ fuel_stations = FuelStation.create([
 ])
 
 essentails = Essential.create([
-    {latitude:-1.102554 , longitude: 37.016667  },
-    {latitude:-1.145703, longitude: 37.016667  },
-    {latitude:-1.087046 , longitude:37.012565  },
-    {latitude:-1.124369 ,longitude:37.004467  }
+    {latitude:-1.102554 , longitude: 37.016667  , icon:"fa fa-fire" , name:"Fuel Station" },
+    {latitude:-1.115703, longitude: 37.016667 , icon:"fa fa-fire" , name:"Fuel Station"   },
+    {latitude:-1.087046 , longitude:37.012565 , icon:"fa fa-fire" , name:"Fuel Station"  },
+    {latitude:-1.141229 ,longitude:37.004467 ,  icon:"fa fa-gear", name:"Mechanic" },
+    {latitude:-1.084679 ,longitude:37.004429 , icon:"fa fa-gear", name:"Mechanic" },
+    {latitude:-1.052369 ,longitude:37.003562 ,icon:"fa fa-gear", name:"Mechanic" }
 
 ])

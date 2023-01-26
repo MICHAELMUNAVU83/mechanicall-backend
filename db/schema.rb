@@ -10,12 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_01_23_171928) do
+ActiveRecord::Schema[7.0].define(version: 2023_01_26_062736) do
   create_table "essentials", force: :cascade do |t|
     t.float "latitude"
     t.float "longitude"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "icon"
+    t.string "name"
   end
 
   create_table "fuel_stations", force: :cascade do |t|
